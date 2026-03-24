@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'test_dj.apps.TestDjConfig',
+    # 'test_dj.apps.TestDjConfig',
+    'test_dj', # 注册app
 ]
 
 MIDDLEWARE = [
